@@ -8,8 +8,7 @@ export const homeObjOne = {
     'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
   buttonLabel: 'Shop Now',
   imgStart: '',
-  img: 'images/svg-4.svg',
-  alt: 'Credit Card'
+  img: 'https://www.youtube.com/watch?v=ysz5S6PUM-U'
 };
 
 export const homeObjTwo = {

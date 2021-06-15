@@ -15,12 +15,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
+        
         <div className='input-areas'>
           <form>
             <input
@@ -29,7 +24,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Submit</Button>
           </form>
         </div>
       </section>
@@ -52,19 +47,13 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
+          
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <Link to='//instagram.com/shahabkhan12342'>Instagram</Link>
+            <Link to='/fb.com/shahabkhan12342'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='//twitter.com/shahabkhan12342'>Twitter</Link>
           </div>
         </div>
       </div>
@@ -80,7 +69,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//facebook.com/shahabkhan12342'
               target='_blank'
               aria-label='Facebook'
             >
@@ -88,7 +77,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//instagram.com/shahabkhan12342'
               target='_blank'
               aria-label='Instagram'
             >
@@ -97,7 +86,7 @@ function Footer() {
             <Link
               className='social-icon-link'
               to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '//youtube.com/channel/UCJTAB861tp4FDe3KlDhGM-Q'
               }
               target='_blank'
               aria-label='Youtube'
@@ -106,7 +95,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//twitter.com/shahabkhan12342'
               target='_blank'
               aria-label='Twitter'
             >
@@ -114,7 +103,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//linkedin.com/in/shahab-khan-78b65188'
               target='_blank'
               aria-label='LinkedIn'
             >

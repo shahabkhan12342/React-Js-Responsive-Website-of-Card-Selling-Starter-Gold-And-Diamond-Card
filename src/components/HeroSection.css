@@ -1,6 +1,6 @@
 .home__hero-section {
     color: #fff;
-    padding: 160px 0;
+    padding: 140px 0;
   }
   
   .home__hero-row {
@@ -17,9 +17,9 @@
   }
   
   .col {
-    margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     flex: 1;
     max-width: 50%;
     flex-basis: 50%;
